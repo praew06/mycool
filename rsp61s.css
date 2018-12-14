@@ -2,20 +2,25 @@
 @font-face{font-family:'Sawasdee'; src: url('rsp_sawasdee.ttf');}
 @font-face{font-family:'WRTishkid2'; src: url('rsp_wr_tish_kid2.ttf');}
 @font-face{font-family:'TLWGTypewriter'; src: url('rsp_tlwgtypewriter.ttf');}
+@font-face{font-family:'wayo_thai03'; src: url('rsp_wayo.ttf');}
 #main{background-color:#000099;font-family:microsoft sans serif;font-size:12px;margin:0px 0px 0px 0px} 
 fieldset{margin:10px 0px 0px 0px;padding:0px} 
 legend{
-border-radius:10px;padding:5px; 
-background-color:#444444;color:#ffffdd;font-size:14px;display:block;padding-left:5px;padding-right:10px;border:2px solid #f9f9f9;
+margin: 10px;
+border-radius:10px;padding:5px;font-family:sawaddee;
+background-color:yellow;color:#9966ff;font-size:20px;display:block;
+padding:5px 5 20 0 10;
+border:2px outset #dddddd !important;
+border-radius:5px 20px !important;
 }
 .topbar{
-background-image: url("shutterstock_114802408.jpg");	
+background-image: url("green-bg-flower2.jpg");	
 width:100%;font-size:20px;background-color:black;color:white;text-align:center;height:60px;padding:0px;border-spacing:0px;border-style:none
 } 
 .topbar a:link, .topbar a:visited{color:#aaffaa;text-decoration:none} 
 .topbar td {text-align:center} 
 .foot_text{color:yellow;text-decoration:none}
-.m_still{width:728px;background-color:white;margin-left:auto;margin-right:auto;padding:0px;border-spacing:0px} 
+.m_still{width:728px;background-color:#ff9966;margin-left:auto;margin-right:auto;padding:0px;border-spacing:0px} 
 .m_hidden{width:728px;vertical-align:top;margin:0px 0px 0px 0px;margin-left:auto;margin-right:auto;padding:0px;border-spacing:0px} 
 .m_min300{width:300px;float:left}
 .m_min400{width:400px;float:left}
@@ -23,7 +28,7 @@ width:100%;font-size:20px;background-color:black;color:white;text-align:center;h
 @media only screen and (min-width:321px) and (max-width:375px) { .m_still{visibility:visible;width:321px} .m_min400, .m_min300{width:321px;} .m_hidden{visibility:hidden;display:none} } 
 @media only screen and (min-width:376px) and (max-width:414px) { .m_still{visibility:visible;width:376px} .m_min400, .m_min300{width:376px;} .m_hidden{visibility:hidden;display:none} }
 @media only screen and (min-width:414px) and (max-width:728px) { .m_still{visibility:visible;width:414px} .m_min400, .m_min300{width:414px;} .m_hidden{visibility:hidden;display:none} }
-#bar_topnav{width:100%;height:30px;background-color:#000044;margin:0px 0px 0px 0px;padding:0px;border-spacing:0px;border-style:none}
+#bar_topnav{width:100%;height:30px;background-color:#3366ff;margin:0px 0px 0px 0px;padding:0px;border-spacing:0px;border-style:none}
 ul.topnav{list-style-type: none;margin:0px;padding:0px;overflow:hidden;background-image:url(rspbar.png)}
 ul.topnav li{float:left}
 ul.topnav li a {display:inline-block;margin:0px;color:white;text-align:center;padding:5px 5px;text-decoration:none;font-size:10px;height:20px}
